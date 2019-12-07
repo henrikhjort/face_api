@@ -11,8 +11,6 @@ from json import dumps
 from flask import jsonify
 from flask_cors import CORS, cross_origin
 from flask import send_file
-from tempfile import NamedTemporaryFile
-from shutil import copyfileobj
 from io import BytesIO
 
 device = torch.device('cpu')
