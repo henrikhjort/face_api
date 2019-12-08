@@ -13,3 +13,4 @@ six==1.13.0
 https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp36-cp36m-linux_x86_64.whl
 torchvision==0.4.2
 Werkzeug==0.16.0
+gunicorn==19.9.0
