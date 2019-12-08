@@ -1,4 +1,3 @@
-import torch
 import torch.nn as nn
 
 class Generator(nn.Module):
@@ -8,7 +7,6 @@ class Generator(nn.Module):
         ngf = 64
         ndf = 64
         nc = 3
-        device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else "cpu")
         self.ngpu = ngpu
         self.main = nn.Sequential(
             # Input is Z, going into a convolution
